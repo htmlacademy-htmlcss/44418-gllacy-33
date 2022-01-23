@@ -24,7 +24,7 @@
     </header>
 
     <main class="main">
-      <h1 class="visually--hidden">Глейси - магазин по продаже мороженого собственного проиводства</h1>
+      <h1 class="visually visually--hidden">Глейси - магазин по продаже мороженого собственного проиводства</h1>
       <section class="slider">
         <ul class="slider__list">
           <li class="slider__item slider-item">
@@ -46,8 +46,8 @@
             <img class="slider-item__img" src="img/ice-cream-03.png" width="306" height="507" alt="Карамельный пломбир с маршмеллоу">
           </li>
         </ul>
-        <button class="slider__next">Следующий</button>
-        <button class="slider__prev">Предыдущий</button>
+        <a class="slider__next" href="#">Следующий</a>
+        <a class="slider__prev" href="#">Предыдущий</a>
         <div class="slider__footer">
           <ul class="slider__nav slider-nav">
             <li class="slider-nav__item slider-nav__item--active"><a class="slider-nav__link" href="">1</a></li>
@@ -55,9 +55,9 @@
             <li class="slider-nav__item"><a class="slider-nav__link" href="">3</a></li>
           </ul>
           <ul class="slider__socials socials">
-            <li class="socials__item"><a class="socials__link socials__vk" href="https://vk.com" target="_blank">Вконтакте</a></li>
-            <li class="socials__item"><a class="socials__link socials__fb" href="https://www.facebook.com" target="_blank">Facebook</a></li>
-            <li class="socials__item"><a class="socials__link socials__inst" href="https://www.instagram.com" target="_blank">instagram</a></li>
+            <li class="socials__item"><a class="socials__link socials--vk" href="https://vk.com" target="_blank">Вконтакте</a></li>
+            <li class="socials__item"><a class="socials__link socials--fb" href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li class="socials__item"><a class="socials__link socials--inst" href="https://www.instagram.com" target="_blank">instagram</a></li>
           </ul>
         </div>
       </section>
@@ -86,7 +86,7 @@
             <h3 class="goods-item__heading">Малинка</h3>
             <p class="goods-item__text">Сливочное мороженое с малиновым джемом</p>
             <div class="goods-item__footer">
-              <div class="goods-item__price">310 ₽/кг</div>
+              <p class="goods-item__price">310 ₽/кг</p>
               <button class="goods-item__cart">В корзину</button>
             </div>
           </li>
@@ -95,7 +95,7 @@
             <h3 class="goods-item__heading">Фисташка</h3>
             <p class="goods-item__text">Фисташковый пломбир с кусочками шоколада</p>
             <div class="goods-item__footer">
-              <div class="goods-item__price">340 ₽/кг</div>
+              <p class="goods-item__price">340 ₽/кг</p>
               <button class="goods-item__cart">В корзину</button>
             </div>
           </li>
@@ -104,7 +104,7 @@
             <h3 class="goods-item__heading">Черника</h3>
             <p class="goods-item__text">Крем-брюле с черничным джемом</p>
             <div class="goods-item__footer">
-              <div class="goods-item__price">330 ₽/кг</div>
+              <p class="goods-item__price">330 ₽/кг</p>
               <button class="goods-item__cart">В корзину</button>
             </div>
           </li>
@@ -113,7 +113,7 @@
             <h3 class="goods-item__heading">Бабл-гам</h3>
             <p class="goods-item__text">Ванильный пломбир со сладкой посыпкой</p>
             <div class="goods-item__footer">
-              <div class="goods-item__price">320 ₽/кг</div>
+              <p class="goods-item__price">320 ₽/кг</p>
               <button class="goods-item__cart">В корзину</button>
             </div>
           </li>
@@ -125,19 +125,19 @@
           <h1 class="about__heading">Магазин Глейси – это онлайн и офлайн-магазин по продаже мороженого собственного проиводства на развес</h1>
           <ul class="about__list">
             <li class="about__item about-item">
-              <span class="about-item__icon about-item__icecream"></span>
+              <span class="about-item__icon about-item__icon--icecream"></span>
               <p class="about-item__text">Всё наше мороженое изготавливается на собственном производстве с использованием современного оборудования и проверенных временем технологий.</p>
             </li>
             <li class="about__item about-item">
-              <span class="about-item__icon about-item__cow"></span>
+              <span class="about-item__icon about-item__icon--cow"></span>
               <p class="about-item__text">Закупка ингредиентов производится только у проверенных фермерских хозяйств, с которыми нас связывает долговременное сотрудничество.</p>
             </li>
             <li class="about__item about-item">
-              <span class="about__item-icon about-item__sheet"></span>
+              <span class="about-item-icon about-item__icon--sheet"></span>
               <p class="about-item__text">Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты и добавки произведены из натурального сырья.</p>
             </li>
             <li class="about__item about-item">
-              <span class="about__item-icon about-item__thermometer"></span>
+              <span class="about-item-icon about-item__icon--thermometer"></span>
               <p class="about-item__text">Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт мороженому растаять и позволяет сохранить превосходный вкус.</p>
             </li>
           </ul>
@@ -193,7 +193,7 @@
             <p class="contacts__text">Для заказов по телефону:</p>
             <a class="contacts__phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
             <p class="contacts__text">(с 10 до 20 ежедневно)</p>
-            <button class="button button_pink">Отправить</button>
+            <button class="button button_pink">Форма обратной связи</button>
           </div>
         </div>
       </section>
