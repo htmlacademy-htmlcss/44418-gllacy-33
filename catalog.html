@@ -49,27 +49,28 @@
                     </select>
                 </div>
                 <div class="catalog-filter__item">
-                    <label class="filter-price__label label" for="filter-price">Цена: <span class="filter-price__label--min">100</span>₽ – <span class="filter-price__label--max">500</span>₽</label>
+                    <label class="label" for="filter-price">Цена: <span class="label__price-min">100</span>₽ – <span class="label__price-max">500</span>₽</label>
                     <input class="range" type="range" id="filter-price" name="filter-price" min="100" max="500">
                 </div>
                 <fieldset class="catalog-filter__item fieldset">
                     <legend class="fieldset__legend">Жирность:</legend>
-                    <ul class="fieldset__list">
-                        <li class="fieldset__item"><label class="label"><input class="radio" type="radio" name="filter-fat"> 0%</label></li>
-                        <li class="fieldset__item"><label class="label"><input class="radio" type="radio" name="filter-fat" checked> до 10%</label></li>
-                        <li class="fieldset__item"><label class="label"><input class="radio" type="radio" name="filter-fat"> до 30%</label></li>
-                        <li class="fieldset__item"><label class="label"><input class="radio" type="radio" name="filter-fat"> выше 30%</label></li>
-                    </ul>
+                    <div class="fieldset__group">
+                        <label class="label"><input class="radio" type="radio" name="filter-fat"> 0%</label>
+                        <label class="label"><input class="radio" type="radio" name="filter-fat"> 0%</label>
+                        <label class="label"><input class="radio" type="radio" name="filter-fat" checked> до 10%</label>
+                        <label class="label"><input class="radio" type="radio" name="filter-fat"> до 30%</label>
+                        <label class="label"><input class="radio" type="radio" name="filter-fat"> выше 30%</label>
+                    </div>
                 </fieldset>
                 <fieldset class="catalog-filter__item fieldset">
                     <legend class="fieldset__legend">Наполнители:</legend>
-                    <ul class="fieldset__list">
-                        <li class="fieldset__item"><label class="fieldset__label"><input class="checkbox" type="checkbox" name="filter-filler" checked> шоколадные</label></li>
-                        <li class="fieldset__item"><label class="fieldset__label"><input class="checkbox" type="checkbox" name="filter-filler"> сахарные посыпки</label></li>
-                        <li class="fieldset__item"><label class="fieldset__label"><input class="checkbox" type="checkbox" name="filter-filler"> фрукты</label></li>
-                        <li class="fieldset__item"><label class="fieldset__label"><input class="checkbox" type="checkbox" name="filter-filler"> сиропы</label></li>
-                        <li class="fieldset__item"><label class="fieldset__label"><input class="checkbox" type="checkbox" name="filter-filler"> джемы</label></li>
-                    </ul>
+                    <div class="fieldset__group">
+                        <label class="fieldset__label"><input class="checkbox" type="checkbox" name="filter-filler" checked> шоколадные</label>
+                        <label class="fieldset__label"><input class="checkbox" type="checkbox" name="filter-filler"> сахарные посыпки</label>
+                        <label class="fieldset__label"><input class="checkbox" type="checkbox" name="filter-filler"> фрукты</label>
+                        <label class="fieldset__label"><input class="checkbox" type="checkbox" name="filter-filler"> сиропы</label>
+                        <label class="fieldset__label"><input class="checkbox" type="checkbox" name="filter-filler"> джемы</label>
+                    </div>
                 </fieldset>
                 <button class="catalog-filter__button button button--transparent">Применить</button>
             </form>
@@ -83,7 +84,105 @@
                         <button class="goods-item__cart">В корзину</button>
                     </div>
                 </li>
-                ...........
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/fistashka.png" width="168" height="168" alt="Фисташка">
+                    <h3 class="goods-item__heading">Фисташка</h3>
+                    <p class="goods-item__text">Фисташковый пломбир с кусочками шоколада</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">340 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/chernika.png" width="168" height="168" alt="Черника">
+                    <h3 class="goods-item__heading">Черника</h3>
+                    <p class="goods-item__text">Крем-брюле с черничным джемом</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">330 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/bablgam.png" width="168" height="168" alt="Бабл-гам">
+                    <h3 class="goods-item__heading">Бабл-гам</h3>
+                    <p class="goods-item__text">Ванильный пломбир со сладкой посыпкой</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">320 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/ezhevika.png" width="168" height="168" alt="Ежевика">
+                    <h3 class="goods-item__heading">Ежевика</h3>
+                    <p class="goods-item__text">Сливочное мороженое с ежевичным джемом</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">330 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/banan.png" width="168" height="168" alt="Банан">
+                    <h3 class="goods-item__heading">Банан</h3>
+                    <p class="goods-item__text">Сливочный пломбир с банановым вкусом</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">340 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/shokoladka.png" width="168" height="168" alt="Шоколадка">
+                    <h3 class="goods-item__heading">Шоколадка</h3>
+                    <p class="goods-item__text">Классический шоколадный пломбир</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">270 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/klubnichka.png" width="168" height="168" alt="Клубничка">
+                    <h3 class="goods-item__heading">Клубничка</h3>
+                    <p class="goods-item__text">Сливочный пломбир с клубничным вкусом</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">300 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/limon.png" width="168" height="168" alt="Лимон">
+                    <h3 class="goods-item__heading">Лимон</h3>
+                    <p class="goods-item__text">Освежающий лимонный сорбет</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">310 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/mentol.png" width="168" height="168" alt="Ментол">
+                    <h3 class="goods-item__heading">Ментол</h3>
+                    <p class="goods-item__text">Сливочный пломбир с ментоловым сиропом</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">320 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/oreshek.png" width="168" height="168" alt="Орешек">
+                    <h3 class="goods-item__heading">Орешек</h3>
+                    <p class="goods-item__text">Фисташковый пломбир с шоколадным сиропом</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">360 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
+                <li class="goods__item goods-item">
+                    <img class="goods-item__img" src="img/krembryule.png" width="168" height="168" alt="Крем-брюле">
+                    <h3 class="goods-item__heading">Крем-брюле</h3>
+                    <p class="goods-item__text">Классическое крем-брюле</p>
+                    <div class="goods-item__footer">
+                        <p class="goods-item__price">280 ₽/кг</p>
+                        <button class="goods-item__cart">В корзину</button>
+                    </div>
+                </li>
             </ul>
             <div class="catalog__footer">
                 <button class="catalog__more button button--white">Показать ещё</button>
