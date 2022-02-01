@@ -1,0 +1,21 @@
+.header-bar__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #2D3440;
+    line-height: 32px;
+    background: rgba(252, 252, 252, 0.3);
+    box-sizing: border-box;
+    transition: .1s ease-in-out;
+    transition-property: background-color;
+}
+.header-bar__link:hover {
+    background-color: rgba(252, 252, 252, 0.5);
+}
+.header-bar__link:focus {
+    outline: 2px solid #2D3440;
+    outline-offset: -2px;;
+    background-color: rgba(252, 252, 252, 0.5);
+}
+.header-bar__link:active {
+    background-color: #FCFCFC;
+}
