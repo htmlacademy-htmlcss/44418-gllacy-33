@@ -13,6 +13,7 @@
 @import url(../blocks/header-nav/header-nav.css);
 @import url(../blocks/header-nav/__list/header-nav__list.css);
 @import url(../blocks/header-nav/__link/header-nav__link.css);
+@import url(../blocks/header-nav/__link/--active/header-nav__link--active.css);
 
 @import url(../blocks/header-bar/header-bar.css);
 @import url(../blocks/header-bar/__item/header-bar__item.css);
