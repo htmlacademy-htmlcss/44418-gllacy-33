@@ -58,6 +58,11 @@
 @import url(../blocks/promo-item/__img/promo-item__img.css);
 
 
+/* Popular */
+@import url(../blocks/popular/popular.css);
+@import url(../blocks/popular/__heading/popular__heading.css);
+
+
 /* Components */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/--white/button--white.css);
@@ -73,6 +78,16 @@
 @import url(../blocks/social/__item/social__item.css);
 @import url(../blocks/social/__link/social__link.css);
 @import url(../blocks/social/__icon/social__icon.css);
+
+@import url(../blocks/goods/goods.css);
+@import url(../blocks/goods-item/goods-item.css);
+@import url(../blocks/goods-item/__img/goods-item__img.css);
+@import url(../blocks/goods-item/__heading/goods-item__heading.css);
+@import url(../blocks/goods-item/__text/goods-item__text.css);
+@import url(../blocks/goods-item/__footer/goods-item__footer.css);
+@import url(../blocks/goods-item/__price/goods-item__price.css);
+@import url(../blocks/goods-item/__cart/goods-item__cart.css);
+@import url(../blocks/goods-item/__cart-icon/goods-item__cart-icon.css);
 
 
 /* Utility */
