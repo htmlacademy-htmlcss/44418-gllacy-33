@@ -86,6 +86,22 @@
 @import url(../blocks/subscription/__input/subscription__input.css);
 
 
+/* Delivery */
+@import url(../blocks/delivery/delivery.css);
+@import url(../blocks/delivery/__wrap/delivery__wrap.css);
+@import url(../blocks/delivery/__content/delivery__content.css);
+@import url(../blocks/delivery/__heading/delivery__heading.css);
+@import url(../blocks/delivery/__text/delivery__text.css);
+
+@import url(../blocks/delivery-form/delivery-form.css);
+@import url(../blocks/delivery-form/__text/delivery-form__text.css);
+@import url(../blocks/delivery-form/__row/delivery-form__row.css);
+@import url(../blocks/delivery-form/__date/delivery-form__date.css);
+@import url(../blocks/delivery-form/__phone/delivery-form__phone.css);
+@import url(../blocks/delivery-form/__address/delivery-form__address.css);
+@import url(../blocks/delivery-form/__button/delivery-form__button.css);
+
+
 /* Components */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/--white/button--white.css);
@@ -113,6 +129,7 @@
 @import url(../blocks/goods-item/__cart/goods-item__cart.css);
 
 @import url(../blocks/input/input.css);
+@import url(../blocks/label/label.css);
 
 
 /* Utility */
