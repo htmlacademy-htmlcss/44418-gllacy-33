@@ -62,6 +62,15 @@
 @import url(../blocks/popular/popular.css);
 @import url(../blocks/popular/__heading/popular__heading.css);
 
+/* About */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__wrap/about__wrap.css);
+@import url(../blocks/about/__box/about__box.css);
+@import url(../blocks/about/__heading/about__heading.css);
+@import url(../blocks/about/__list/about__list.css);
+@import url(../blocks/about/__item/about__item.css);
+@import url(../blocks/about/__text/about__text.css);
+
 
 /* Components */
 @import url(../blocks/button/button.css);
