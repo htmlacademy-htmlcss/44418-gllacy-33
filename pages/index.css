@@ -1,5 +1,5 @@
 /* Base */
-@import url(../vendor/normalize.css);
+/* @import url(../vendor/normalize.css); */
 @import url(../vendor/fonts/inter.css);
 
 /* Page */
@@ -72,9 +72,24 @@
 @import url(../blocks/about/__text/about__text.css);
 
 
+/* News */
+@import url(../blocks/news/news.css);
+
+@import url(../blocks/news-item/news-item.css);
+@import url(../blocks/news-item/__text/news-item__text.css);
+@import url(../blocks/news-item/__heading/news-item__heading.css);
+
+@import url(../blocks/subscription/subscription.css);
+@import url(../blocks/subscription/__box/subscription__box.css);
+@import url(../blocks/subscription/__text/subscription__text.css);
+@import url(../blocks/subscription/__form/subscription__form.css);
+@import url(../blocks/subscription/__input/subscription__input.css);
+
+
 /* Components */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/--white/button--white.css);
+@import url(../blocks/button/--pink/button--pink.css);
 
 @import url(../blocks/slidenav/slidenav.css);
 
@@ -96,7 +111,8 @@
 @import url(../blocks/goods-item/__footer/goods-item__footer.css);
 @import url(../blocks/goods-item/__price/goods-item__price.css);
 @import url(../blocks/goods-item/__cart/goods-item__cart.css);
-@import url(../blocks/goods-item/__cart-icon/goods-item__cart-icon.css);
+
+@import url(../blocks/input/input.css);
 
 
 /* Utility */
