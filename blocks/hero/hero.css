@@ -1,8 +1,9 @@
-.header {
+.hero {
     max-width: 1170px;
     margin: 0 auto;
+    position: relative;
     display: flex;
     align-items: center;
-    min-height: 104px;
-    padding: 0 98px
+    padding: 20px 98px 25px 98px;
+    overflow: hidden;
 }

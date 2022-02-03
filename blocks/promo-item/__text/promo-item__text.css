@@ -1,0 +1,12 @@
+.promo-item__text {
+    margin-bottom: 30px;
+}
+
+
+.promo-item:first-child .promo-item__text {
+    max-width: 320px;
+}
+
+.promo-item:last-child .promo-item__text {
+    max-width: 294px;
+}

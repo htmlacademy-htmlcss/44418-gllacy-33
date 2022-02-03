@@ -1,0 +1,20 @@
+.hero-slider__item {
+    position: relative;
+    opacity: .4;
+    cursor: pointer;
+    text-align: center;
+    min-width: 100px;
+    margin-left: 40px;
+}
+
+.hero-slider__item::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: #FFCBD8;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

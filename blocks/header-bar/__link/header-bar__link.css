@@ -11,7 +11,7 @@
 .header-bar__link:hover {
     background-color: rgba(252, 252, 252, 0.5);
 }
-.header-bar__link:focus {
+.header-bar__link:focus-visible {
     outline: 2px solid #2D3440;
     outline-offset: -2px;;
     background-color: rgba(252, 252, 252, 0.5);

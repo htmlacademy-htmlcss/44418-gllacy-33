@@ -5,6 +5,7 @@
 /* Page */
 @import url(../blocks/page/page.css);
 
+
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -22,6 +23,57 @@
 @import url(../blocks/header-bar/__login/header-bar__login.css);
 @import url(../blocks/header-bar/__cart/header-bar__cart.css);
 @import url(../blocks/header-bar/__cart/--active/header-bar__cart--active.css);
+
+
+/* Hero */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__dotnav/hero__dotnav.css);
+@import url(../blocks/hero/__social/hero__social.css);
+
+
+@import url(../blocks/hero-content/hero-content.css);
+@import url(../blocks/hero-content/__item/hero-content__item.css);
+@import url(../blocks/hero-content/__item/--active/hero-content__item--active.css);
+@import url(../blocks/hero-content/__heading/hero-content__heading.css);
+@import url(../blocks/hero-content/__text/hero-content__text.css);
+
+@import url(../blocks/hero-slider/hero-slider.css);
+@import url(../blocks/hero-slider/__list/hero-slider__list.css);
+@import url(../blocks/hero-slider/__item/hero-slider__item.css);
+@import url(../blocks/hero-slider/__item/--active/hero-slider__item--active.css);
+@import url(../blocks/hero-slider/__img/hero-slider__img.css);
+@import url(../blocks/hero-slider/__slidenav/hero-slider__slidenav.css);
+@import url(../blocks/hero-slider/__slidenav/--prev/hero-slider__slidenav--prev.css);
+@import url(../blocks/hero-slider/__slidenav/--next/hero-slider__slidenav--next.css);
+
+
+/* Promo */
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__heading/promo__heading.css);
+@import url(../blocks/promo/__list/promo__list.css);
+
+@import url(../blocks/promo-item/promo-item.css);
+@import url(../blocks/promo-item/__heading/promo-item__heading.css);
+@import url(../blocks/promo-item/__text/promo-item__text.css);
+@import url(../blocks/promo-item/__img/promo-item__img.css);
+
+
+/* Components */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/--white/button--white.css);
+
+@import url(../blocks/slidenav/slidenav.css);
+
+@import url(../blocks/dotnav/dotnav.css);
+@import url(../blocks/dotnav/__item/dotnav__item.css);
+@import url(../blocks/dotnav/__item/--active/dotnav__item--active.css);
+@import url(../blocks/dotnav/__link/dotnav__link.css);
+
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__item/social__item.css);
+@import url(../blocks/social/__link/social__link.css);
+@import url(../blocks/social/__icon/social__icon.css);
+
 
 /* Utility */
 @import url(../blocks/visually-hidden/visually-hidden.css);
