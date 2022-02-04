@@ -3,10 +3,12 @@
 
 /* Page */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/--pink/page--pink.css);
 
 
 /* Header */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__grid/header__grid.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__phone/header__phone.css);
 
@@ -26,6 +28,7 @@
 
 /* Hero */
 @import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__grid/hero__grid.css);
 @import url(../blocks/hero/__dotnav/hero__dotnav.css);
 @import url(../blocks/hero/__social/hero__social.css);
 
@@ -54,7 +57,6 @@
 @import url(../blocks/promo-item/promo-item.css);
 @import url(../blocks/promo-item/__heading/promo-item__heading.css);
 @import url(../blocks/promo-item/__text/promo-item__text.css);
-@import url(../blocks/promo-item/__img/promo-item__img.css);
 
 
 /* Popular */
@@ -73,6 +75,7 @@
 
 /* News */
 @import url(../blocks/news/news.css);
+@import url(../blocks/news/__grid/news__grid.css);
 
 @import url(../blocks/news-item/news-item.css);
 @import url(../blocks/news-item/__text/news-item__text.css);
@@ -113,6 +116,7 @@
 
 /* Footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__grid/footer__grid.css);
 
 @import url(../blocks/footer-nav/footer-nav.css);
 @import url(../blocks/footer-nav/__list/footer-nav__list.css);
@@ -125,6 +129,8 @@
 
 
 /* Components */
+@import url(../blocks/container/container.css);
+
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/--white/button--white.css);
 @import url(../blocks/button/--pink/button--pink.css);

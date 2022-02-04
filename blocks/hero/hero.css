@@ -1,9 +1,5 @@
 .hero {
-    max-width: 1170px;
-    margin: 0 auto;
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding: 20px 98px 25px 98px;
+    padding-top: 20px;
+    padding-bottom: 25px;
     overflow: hidden;
 }
