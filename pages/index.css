@@ -1,6 +1,7 @@
 /* Base */
 @import url(../fonts/inter.css);
 
+
 /* Page */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/--pink/page--pink.css);
@@ -143,7 +144,6 @@
 @import url(../blocks/dotnav/__link/dotnav__link.css);
 
 @import url(../blocks/social/social.css);
-@import url(../blocks/social/__item/social__item.css);
 @import url(../blocks/social/__link/social__link.css);
 @import url(../blocks/social/__icon/social__icon.css);
 

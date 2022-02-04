@@ -12,10 +12,12 @@
     background-image: url(../../images/promo-malinka.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 15px) bottom;
+    padding-right: 210px;
 }
 
 .promo-item:last-child {
     background-image: url(../../images/promo-marshmellou.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 7px) bottom;
+    padding-right: 230px;
 }

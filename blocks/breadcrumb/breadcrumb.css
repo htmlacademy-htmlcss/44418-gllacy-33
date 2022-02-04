@@ -1,6 +1,6 @@
-.dotnav {
+.breadcrumb {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    color: #2D3440;
 }

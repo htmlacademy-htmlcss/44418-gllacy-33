@@ -1,6 +1,6 @@
 .footer__grid {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-auto-flow: column;
     justify-content: space-between;
     gap: 40px;
 }
