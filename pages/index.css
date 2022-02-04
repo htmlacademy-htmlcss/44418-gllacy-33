@@ -1,6 +1,5 @@
 /* Base */
-/* @import url(../vendor/normalize.css); */
-@import url(../vendor/fonts/inter.css);
+@import url(../fonts/inter.css);
 
 /* Page */
 @import url(../blocks/page/page.css);
@@ -100,6 +99,29 @@
 @import url(../blocks/delivery-form/__phone/delivery-form__phone.css);
 @import url(../blocks/delivery-form/__address/delivery-form__address.css);
 @import url(../blocks/delivery-form/__button/delivery-form__button.css);
+
+
+/* Contacts */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__wrap/contacts__wrap.css);
+@import url(../blocks/contacts/__box/contacts__box.css);
+@import url(../blocks/contacts/__address/contacts__address.css);
+@import url(../blocks/contacts/__phone/contacts__phone.css);
+@import url(../blocks/contacts/__text/contacts__text.css);
+@import url(../blocks/contacts/__button/contacts__button.css);
+
+
+/* Footer */
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/footer-nav/footer-nav.css);
+@import url(../blocks/footer-nav/__list/footer-nav__list.css);
+@import url(../blocks/footer-nav/__item/footer-nav__item.css);
+@import url(../blocks/footer-nav/__link/footer-nav__link.css);
+@import url(../blocks/footer-nav/__link/--heart/footer-nav__link--heart.css);
+
+@import url(../blocks/copyright/copyright.css);
+@import url(../blocks/copyright/__text/copyright__text.css);
 
 
 /* Components */

@@ -237,7 +237,7 @@
                 <div class="subscription__box">
                     <p class="subscription__text">Подпишитесь на&nbsp;нашу сладкую рассылку и&nbsp;будьте всегда в&nbsp;курсе всего самого вкусного, что у&nbsp;нас происходит. Обещаем не&nbsp;спамить и&nbsp;не&nbsp;слать всякой ненужной ерунды. Честно =)</p>
                     <form class="subscription__form" action="https://echo.htmlacademy.ru/" method="post">
-                        <input class="subscription__input input" type="email" name="subscription-email" id="subscription-email" placeholder="email@example.com">
+                        <input class="subscription__input input" type="email" name="subscription-email" id="subscription-email" placeholder="email@example.com" required>
                         <button class="subscription__button button button--pink">Отправить</button>
                     </form>
                 </div>
@@ -255,16 +255,16 @@
                     <div class="delivery-form__row">
                         <div class="delivery-form__date">
                             <label class="label" for="delivery-date">Дата <span class="label__info"></span></label>
-                            <input class="input" type="date" name="delivery-date" id="delivery-date">
+                            <input class="input" type="date" name="delivery-date" id="delivery-date" required>
                         </div>
                         <div class="delivery-form__phone">
                             <label class="label" for="delivery-phone">Телефон</label>
-                            <input class="input" type="tel" name="delivery-phone" id="delivery-phone" placeholder="+7 800 999-00-00">
+                            <input class="input" type="tel" name="delivery-phone" id="delivery-phone" placeholder="+7 800 999-00-00" required>
                         </div>
                     </div>
                     <div class="delivery-form__address">
                         <label class="label" for="delivery-address">Адрес <span class="label__info"></span></label>
-                        <input class="input" type="text" name="delivery-address" id="delivery-address" placeholder="ул. Большая Конюшенная, 19/8">
+                        <input class="input" type="text" name="delivery-address" id="delivery-address" placeholder="ул. Большая Конюшенная, 19/8" required>
                     </div>
                     <button class="delivery-form__button button button--pink">Отправить</button>
                 </form>
@@ -272,33 +272,45 @@
         </section>
 
         <section class="contacts">
-            <div class="contacts__container">
-                <div class="contacts__content">
-                    <p class="contacts__text">Адрес главного офиса и офлайн-магазина:</p>
-                    <a class="contacts__address" href="https://yandex.ru/maps/-/CCUy7Tt8KB" target="_blank">наб. реки
-                        Карповки, 5
-                        лит П, Санкт-Петербург</a>
+            <div class="contacts__wrap">
+                <div class="contacts__box">
+                    <p class="contacts__text">Адрес главного офиса<br> и&nbsp;офлайн-магазина:</p>
+                    <a class="contacts__address" href="https://yandex.ru/maps/-/CCUy7Tt8KB" target="_blank">наб. реки Карповки,<br> 5 лит П, Санкт-Петербург</a>
                     <p class="contacts__text">Для заказов по телефону:</p>
                     <a class="contacts__phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
                     <p class="contacts__text">(с 10 до 20 ежедневно)</p>
-                    <button class="button button_pink">Форма обратной связи</button>
+                    <button class="contacts__button button button--pink">Форма обратной связи</button>
                 </div>
             </div>
         </section>
 
         <footer class="footer">
-            <ul class="footer__socials socials">
-                <li class="social__item"><a class="social__link social__link--vk" href="https://vk.com"
-                        target="_blank">Вконтакте</a></li>
-                <li class="social__item"><a class="social__link social__link--fb" href="https://www.facebook.com"
-                        target="_blank">Facebook</a></li>
-                <li class="social__item"><a class="social__link social__link--inst" href="https://www.instagram.com"
-                        target="_blank">instagram</a></li>
+            <ul class="footer__social social">
+                <li class="social__item">
+                    <a class="social__link" href="https://vk.com" target="_blank" >
+                        <svg class="social__icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-label="Вконтакте">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.392 9.983h-.478s-1.055.056-1.984-.792c-1.013-.925-1.908-2.76-1.908-2.76s-.052-.12.004-.178c.063-.066.235-.07.235-.07l1.143-.006s.108.016.185.065c.063.041.099.118.099.118s.185.41.43.78c.477.723.7.881.861.803.237-.112.166-1.022.166-1.022s.004-.33-.12-.477c-.095-.114-.275-.147-.354-.156-.065-.008.041-.139.178-.198.206-.088.569-.093.998-.09.334.004.43.022.561.05.304.064.294.27.274.714a9.697 9.697 0 0 0-.013.464l-.003.126c-.007.228-.015.488.156.585.087.05.301.007.837-.79.254-.378.444-.822.444-.822s.042-.08.107-.113c.066-.035.155-.024.155-.024l1.203-.007s.361-.038.42.105c.061.15-.135.5-.627 1.075-.463.541-.69.743-.672.92.013.13.16.247.445.48.592.481.75.734.788.794a.326.326 0 0 0 .007.01c.265.386-.294.416-.294.416l-1.069.013s-.23.04-.531-.142c-.158-.095-.313-.25-.46-.398-.225-.226-.433-.435-.61-.386-.298.083-.289.646-.289.646s.002.12-.066.184c-.073.07-.218.083-.218.083Z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="https://www.facebook.com" target="_blank" >
+                        <svg class="social__icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-label="Facebook">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-6.381.6h-.952V12H7.143V8.6H6V7h1.143V5.88c0-1.217.734-1.88 1.769-1.88.495 0 .964.039 1.088.056V5.4h-.571c-.762 0-.762.388-.762.8V7H10l-.381 1.6Z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link" href="https://www.instagram.com" target="_blank">
+                        <svg class="social__icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-label="instagram">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.649 4.024C9.222 4.004 9.087 4 8 4s-1.222.005-1.649.024c-.426.02-.716.087-.971.186-.267.1-.509.258-.709.461-.203.2-.36.442-.461.709-.1.255-.166.545-.186.971C4.004 6.778 4 6.913 4 8s.005 1.222.024 1.649c.02.426.087.716.186.971.1.267.258.509.461.709.2.203.442.36.709.461.255.099.545.166.971.186.427.02.562.024 1.649.024s1.222-.005 1.649-.024c.426-.02.716-.087.971-.186.267-.1.509-.258.709-.461.203-.2.36-.442.461-.709.099-.255.166-.545.186-.971.02-.427.024-.562.024-1.649s-.005-1.222-.024-1.649a2.955 2.955 0 0 0-.186-.971 1.963 1.963 0 0 0-.461-.709 1.95 1.95 0 0 0-.709-.461c-.255-.1-.545-.166-.971-.186ZM6.586 6.586a2 2 0 1 1 2.828 2.828 2 2 0 0 1-2.828-2.828Zm3.868-1.04a.5.5 0 1 1-.708.708.5.5 0 0 1 .708-.708ZM8.849 7.151A1.2 1.2 0 1 0 7.15 8.85 1.2 1.2 0 0 0 8.85 7.15Z" />
+                        </svg>
+                    </a>
+                </li>
             </ul>
             <nav class="footer__nav footer-nav">
                 <ul class="footer-nav__list">
-                    <li class="footer-nav__item"><a class="footer-nav__link footer-nav__link--heart" href="#">Для
-                            поставщиков</a>
+                    <li class="footer-nav__item"><a class="footer-nav__link footer-nav__link--heart" href="#">Для поставщиков</a>
                     </li>
                     <li class="footer-nav__item"><a class="footer-nav__link" href="#">О производстве</a></li>
                 </ul>
@@ -308,8 +320,7 @@
                 </ul>
             </nav>
             <div class="footer__copyright copyright">
-                <img class="copyright__logo" src="images/logo_htmlacademy.svg" width="93" height="27"
-                    alt="html academy">
+                <a class="copyright__link" href="https://htmlacademy.ru" target="_blank"><img class="copyright__logo" src="images/logo_htmlacademy.svg" width="93" height="27" alt="html academy"></a>
                 <p class="copyright__text">Сделано в .html academy © 2022</p>
             </div>
         </footer>
