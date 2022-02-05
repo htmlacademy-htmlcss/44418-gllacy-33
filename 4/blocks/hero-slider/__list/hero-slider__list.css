@@ -1,0 +1,9 @@
+.hero-slider__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}

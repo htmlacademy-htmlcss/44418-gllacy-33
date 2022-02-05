@@ -1,0 +1,9 @@
+.catalog__footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.3);
+}

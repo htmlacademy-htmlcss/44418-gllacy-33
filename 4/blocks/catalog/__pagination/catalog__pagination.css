@@ -1,0 +1,4 @@
+.catalog__pagination {
+    justify-self: end;
+    grid-column-start: 3;
+}
