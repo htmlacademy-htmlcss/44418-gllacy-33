@@ -1,0 +1,10 @@
+.catalog-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-left: -24px;
+    margin-bottom: 84px;
+}
+.catalog-filter > * {
+    margin-left: 24px;
+}

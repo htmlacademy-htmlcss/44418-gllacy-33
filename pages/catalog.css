@@ -6,15 +6,6 @@
 @import url(../blocks/page/--pink/page--pink.css);
 
 
-/* Main */
-@import url(../blocks/main/__header/main__header.css);
-@import url(../blocks/main/__heading/main__heading.css);
-
-
-/* Catalog */
-@import url(../blocks/catalog/catalog.css);
-
-
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__grid/header__grid.css);
@@ -33,6 +24,23 @@
 @import url(../blocks/header-bar/__login/header-bar__login.css);
 @import url(../blocks/header-bar/__cart/header-bar__cart.css);
 @import url(../blocks/header-bar/__cart/--active/header-bar__cart--active.css);
+
+
+/* Main */
+@import url(../blocks/main/__header/main__header.css);
+@import url(../blocks/main/__heading/main__heading.css);
+
+
+/* Catalog */
+@import url(../blocks/catalog/catalog.css);
+
+@import url(../blocks/catalog/__footer/catalog__footer.css);
+@import url(../blocks/catalog/__pagination/catalog__pagination.css);
+@import url(../blocks/catalog/__more/catalog__more.css);
+
+@import url(../blocks/catalog-filter/catalog-filter.css);
+@import url(../blocks/catalog-filter/__item/catalog-filter__item.css);
+@import url(../blocks/catalog-filter/__legend/catalog-filter__legend.css);
 
 
 
@@ -57,9 +65,11 @@
 @import url(../blocks/breadcrumb/breadcrumb.css);
 @import url(../blocks/breadcrumb/__item/breadcrumb__item.css);
 @import url(../blocks/breadcrumb/__link/breadcrumb__link.css);
-@import url(../blocks/breadcrumb/__current/breadcrumb__current.css);
+
+@import url(../blocks/pagination/pagination.css);
 
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/--white/button--white.css);
 
 @import url(../blocks/social/social.css);
 @import url(../blocks/social/__link/social__link.css);
