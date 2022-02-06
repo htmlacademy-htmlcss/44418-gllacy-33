@@ -546,7 +546,6 @@
 .hero {
   padding-top: 20px;
   padding-bottom: 25px;
-  overflow: hidden;
 }
 .hero__grid {
   display: flex;
