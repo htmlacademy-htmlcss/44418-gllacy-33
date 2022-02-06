@@ -1,6 +1,41 @@
 /* Base */
 @import url(../fonts/inter.css);
 
+/* Components */
+@import url(../blocks/container/container.css);
+
+@import url(../blocks/breadcrumb/breadcrumb.css);
+@import url(../blocks/breadcrumb/__item/breadcrumb__item.css);
+@import url(../blocks/breadcrumb/__link/breadcrumb__link.css);
+
+@import url(../blocks/pagination/pagination.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/--white/button--white.css);
+@import url(../blocks/button/--transparent/button--transparent.css);
+
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__link/social__link.css);
+@import url(../blocks/social/__icon/social__icon.css);
+
+@import url(../blocks/goods/goods.css);
+@import url(../blocks/goods-item/goods-item.css);
+@import url(../blocks/goods-item/__img/goods-item__img.css);
+@import url(../blocks/goods-item/__heading/goods-item__heading.css);
+@import url(../blocks/goods-item/__text/goods-item__text.css);
+@import url(../blocks/goods-item/__footer/goods-item__footer.css);
+@import url(../blocks/goods-item/__price/goods-item__price.css);
+@import url(../blocks/goods-item/__cart/goods-item__cart.css);
+
+@import url(../blocks/input/input.css);
+@import url(../blocks/label/label.css);
+
+
+/* Utility */
+@import url(../blocks/visually-hidden/visually-hidden.css);
+
+
+
 /* Page */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/--pink/page--pink.css);
@@ -41,6 +76,10 @@
 @import url(../blocks/catalog-filter/catalog-filter.css);
 @import url(../blocks/catalog-filter/__item/catalog-filter__item.css);
 @import url(../blocks/catalog-filter/__legend/catalog-filter__legend.css);
+@import url(../blocks/catalog-filter/__wrap/catalog-filter__wrap.css);
+@import url(../blocks/catalog-filter/__select/catalog-filter__select.css);
+@import url(../blocks/catalog-filter/__range/catalog-filter__range.css);
+@import url(../blocks/catalog-filter/__button/catalog-filter__button.css);
 
 
 
@@ -56,37 +95,3 @@
 
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/copyright/__text/copyright__text.css);
-
-
-
-/* Components */
-@import url(../blocks/container/container.css);
-
-@import url(../blocks/breadcrumb/breadcrumb.css);
-@import url(../blocks/breadcrumb/__item/breadcrumb__item.css);
-@import url(../blocks/breadcrumb/__link/breadcrumb__link.css);
-
-@import url(../blocks/pagination/pagination.css);
-
-@import url(../blocks/button/button.css);
-@import url(../blocks/button/--white/button--white.css);
-
-@import url(../blocks/social/social.css);
-@import url(../blocks/social/__link/social__link.css);
-@import url(../blocks/social/__icon/social__icon.css);
-
-@import url(../blocks/goods/goods.css);
-@import url(../blocks/goods-item/goods-item.css);
-@import url(../blocks/goods-item/__img/goods-item__img.css);
-@import url(../blocks/goods-item/__heading/goods-item__heading.css);
-@import url(../blocks/goods-item/__text/goods-item__text.css);
-@import url(../blocks/goods-item/__footer/goods-item__footer.css);
-@import url(../blocks/goods-item/__price/goods-item__price.css);
-@import url(../blocks/goods-item/__cart/goods-item__cart.css);
-
-@import url(../blocks/input/input.css);
-@import url(../blocks/label/label.css);
-
-
-/* Utility */
-@import url(../blocks/visually-hidden/visually-hidden.css);
