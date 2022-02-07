@@ -1,0 +1,22 @@
+.button--pink {
+    color: #FCFCFC;
+    background-color: #FF2F64;
+    box-shadow: 0 0 0 4px rgba(255, 47, 100, 0.3), 0 4px 12px rgba(45, 52, 64, 0.1);
+}
+.button--pink:hover {
+    color: #2D3440;
+    background-color: #FCFCFC;
+    box-shadow: 0 0 0 4px #FF2F64, 0px 4px 15px rgba(133, 133, 133, 0.15);
+}
+.button--pink:focus-visible {
+    color: #FCFCFC;
+    background-color: #FF2F64;
+    box-shadow: 0 0 0 2px #2D3440, 0px 4px 12px rgba(45, 52, 64, 0.1);
+    outline: none;
+}
+.button--pink:disabled {
+    color: #565C66;
+    background-color: #B9B9B9;
+    box-shadow: 0 0 0 4px rgba(185, 185, 185, 0.3);
+    cursor: auto;
+}

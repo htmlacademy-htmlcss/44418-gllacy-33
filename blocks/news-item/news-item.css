@@ -1,0 +1,10 @@
+.news-item {
+    box-sizing: border-box;
+    padding: 32px;
+    background-color: #FCFCFC;
+    text-decoration: none;
+    min-height: 220px;
+    border-radius: 16px;
+    background: url(../../images/bg-news.jpg) #FCFCFC center no-repeat;
+    background-size: cover;
+}
