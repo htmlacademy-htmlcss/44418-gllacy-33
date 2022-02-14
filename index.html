@@ -240,27 +240,39 @@
                         <h2 class="delivery__heading">Доставка любимого мороженого на&nbsp;дом</h2>
                         <p class="delivery__text">Хочется полакомиться любимым дессертом, но&nbsp;нет времени съездить в&nbsp;магазин? Закажите доставку мороженого на&nbsp;дом, и&nbsp;курьер привезёт вам ваш заказ в&nbsp;течение часа!</p>
                     </div>
-                    <form class="delivery__form delivery-form" action="https://echo.htmlacademy.ru/" method="post">
-                        <p class="delivery-form__text">Укажите адрес и&nbsp;дату доставки, и&nbsp;мы&nbsp;свяжемся с&nbsp;вами, чтобы подтвердить заказ.</p>
-                        <div class="delivery-form__row">
-                            <div class="delivery-form__date">
-                                <label class="label" for="delivery-date">Дата <span class="label__info"></span></label>
-                                <input class="input" type="date" name="delivery-date" id="delivery-date" required>
+                    <div class="delivery__appointment appointment">
+                        <h2 class="visually-hidden">Заказать доставку</h2>
+                        <p class="appointment__text">Укажите адрес и&nbsp;дату доставки, и&nbsp;мы&nbsp;свяжемся с&nbsp;вами, чтобы подтвердить заказ.</p>
+                        <form class="appointment__form appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+                            <div class="appointment-form__grid">
+                                <p class="field-group appointment-form__date">
+                                    <label class="label" for="delivery-date">
+                                        Дата
+                                        <button class="label__info">
+                                            <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+                                        </button>
+                                    </label>
+                                    <input class="input" type="date" name="delivery-date" id="delivery-date" required>
+                                </p>
+                                <p class="field-group appointment-form__phone">
+                                    <label class="label" for="delivery-phone">Телефон</label>
+                                    <input class="input" type="tel" name="delivery-phone" id="delivery-phone" placeholder="+7 800 999-00-00" required>
+                                </p>
+                                <p class="field-group appointment-form__address">
+                                    <label class="label" for="delivery-address">
+                                        Адрес
+                                        <button class="label__info">
+                                            <span class="visually-hidden">Посмотреть дополнительную информацию</span>
+                                        </button>
+                                    </label>
+                                    <input class="input" type="text" name="delivery-address" id="delivery-address" placeholder="ул. Большая Конюшенная, 19/8" required>
+                                </p>
                             </div>
-                            <div class="delivery-form__phone">
-                                <label class="label" for="delivery-phone">Телефон</label>
-                                <input class="input" type="tel" name="delivery-phone" id="delivery-phone" placeholder="+7 800 999-00-00" required>
-                            </div>
-                        </div>
-                        <div class="delivery-form__address">
-                            <label class="label" for="delivery-address">Адрес <span class="label__info"></span></label>
-                            <input class="input" type="text" name="delivery-address" id="delivery-address" placeholder="ул. Большая Конюшенная, 19/8" required>
-                        </div>
-                        <button class="delivery-form__button button button--pink">Отправить</button>
-                    </form>
+                            <button class="appointment-form__button button button--pink">Отправить</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-
         </section>
 
         <section class="contacts">
