@@ -3,8 +3,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/inter/Inter-Regular.woff2") format("woff2"),
-    url("/fonts/inter/Inter-Regular.woff") format("woff");
+  src: url("../fonts/inter/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/inter/Inter-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("/fonts/inter/Inter-Bold.woff2") format("woff2"),
-    url("/fonts/inter/Inter-Bold.woff") format("woff");
+  src: url("../fonts/inter/Inter-Bold.woff2") format("woff2"),
+    url("../fonts/inter/Inter-Bold.woff") format("woff");
 }
 
 @font-face {
@@ -21,8 +21,8 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("/fonts/inter/Inter-Black.woff2") format("woff2"),
-    url("/fonts/inter/Inter-Black.woff") format("woff");
+  src: url("../fonts/inter/Inter-Black.woff2") format("woff2"),
+    url("../fonts/inter/Inter-Black.woff") format("woff");
 }
 
 
@@ -307,13 +307,13 @@
   outline: none;
 }
 .social__link--vk {
-  background-image: url(/images/vk.svg);
+  background-image: url(../images/vk.svg);
 }
 .social__link--fb {
-  background-image: url(/images/fb.svg);
+  background-image: url(../images/fb.svg);
 }
 .social__link--inst {
-  background-image: url(/images/inst.svg);
+  background-image: url(../images/inst.svg);
 }
 
 
@@ -402,7 +402,7 @@
   height: 32px;
   vertical-align: middle;
   box-sizing: border-box;
-  background-image: url(/images/cart-white.svg);
+  background-image: url(../images/cart-white.svg);
   background-position: center;
   background-repeat: no-repeat;
   transition: .1s ease-in-out;
@@ -412,7 +412,7 @@
 .goods-item__cart:hover {
   color: #2D3440;
   background-color: rgba(252, 252, 252, 0.3);
-  background-image: url(/images/cart-black.svg);
+  background-image: url(../images/cart-black.svg);
 }
 .goods-item__cart:focus-visible {
   border-color: #2D3440;
@@ -705,14 +705,14 @@
 
 
 .promo-item:first-child {
-  background-image: url(../../images/promo-malinka.png);
+  background-image: url(../images/promo-malinka.png);
   background-repeat: no-repeat;
   background-position: calc(100% - 15px) bottom;
   padding-right: 210px;
 }
 
 .promo-item:last-child {
-  background-image: url(../../images/promo-marshmellou.png);
+  background-image: url(../images/promo-marshmellou.png);
   background-repeat: no-repeat;
   background-position: calc(100% - 7px) bottom;
   padding-right: 230px;
@@ -750,7 +750,7 @@
 .about__wrap {
   box-sizing: border-box;
   border-radius: 16px;
-  background: url(/images/bg-waffle.jpg) no-repeat center;
+  background: url(../images/bg-waffle.jpg) no-repeat center;
   background-size: cover;
   padding: 24px;
 }
@@ -803,7 +803,7 @@
   text-decoration: none;
   min-height: 220px;
   border-radius: 16px;
-  background: url(../../images/bg-news.jpg) #FCFCFC center no-repeat;
+  background: url(../images/bg-news.jpg) #FCFCFC center no-repeat;
   background-size: cover;
 }
 .news-item__text {
@@ -821,7 +821,7 @@
 }
 .subscription {
   border-radius: 16px;
-  background: url(../../images/bg-mailbox.jpg) no-repeat center;
+  background: url(../images/bg-mailbox.jpg) no-repeat center;
   background-size: cover;
   padding: 6px;
 }
@@ -856,7 +856,7 @@
 .delivery__wrap {
   box-sizing: border-box;
   padding: 64px 64px 64px 100px;
-  background: url(/images/bg-delivery.jpg) no-repeat center;
+  background: url(../images/bg-delivery.jpg) no-repeat center;
   background-size: cover;
   border-radius: 16px;
   display: flex;
@@ -915,7 +915,7 @@
 .contacts__wrap {
   box-sizing: border-box;
   padding: 64px;
-  background: url(/images/bg-contacts.jpg) no-repeat center;
+  background: url(../images/bg-contacts.jpg) no-repeat center;
   background-size: cover;
   border-radius: 16px;
 }
