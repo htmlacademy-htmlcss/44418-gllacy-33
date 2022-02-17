@@ -1,0 +1,10 @@
+.contacts__phone {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2D3440;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-bottom: 0;
+}

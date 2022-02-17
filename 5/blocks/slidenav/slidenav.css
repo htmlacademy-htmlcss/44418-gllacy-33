@@ -1,0 +1,24 @@
+.slidenav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    color: #FCFCFC;
+    box-sizing: border-box;
+    border: 2px solid #FCFCFC;
+    border-radius: 50%;
+    background-color: rgba(252, 252, 252, 0.3);
+    transition: .1s ease-in-out;
+    transition-property: background-color, color;
+}
+.slidenav:hover {
+    background-color: #FCFCFC;
+    color: #2D3440;
+}
+.slidenav:focus-visible {
+    background-color: rgba(252, 252, 252, 0.3);
+    outline: 2px solid #2D3440;
+    outline-offset: -2px;
+    color: #2D3440;
+}

@@ -1,0 +1,7 @@
+.contacts__wrap {
+    box-sizing: border-box;
+    padding: 64px;
+    background: url(../../../images/bg-contacts.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 16px;
+}

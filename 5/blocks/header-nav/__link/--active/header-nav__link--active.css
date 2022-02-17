@@ -1,0 +1,7 @@
+.header-nav__link--active {
+    background: #FF4A78;
+    color: #FCFCFC;
+}
+.header-nav__link--active:hover {
+    background: #FF4A78;
+}
