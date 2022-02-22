@@ -25,13 +25,15 @@
     url("../fonts/inter/Inter-Black.woff") format("woff");
 }
 
+html {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  color: #2D3440;
+}
 
 .page {
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 400;
-  color: #2D3440;
-  font-size: 16px;
-  line-height: 1.375;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -1118,4 +1120,13 @@
   margin-bottom: 0;
   font-size: 12px;
   line-height: 1.333;
+}
+.copyright__link {
+  color: #2D3440;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: rgba(45, 52, 64, 0.5);
+}
+.copyright__link:hover {
+  opacity: .7;
 }
