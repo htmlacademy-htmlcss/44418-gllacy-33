@@ -33,6 +33,10 @@ html {
   color: #2D3440;
 }
 
+:focus {
+  outline: 2px solid  #2D3440;
+}
+
 .page {
   min-height: 100vh;
   display: flex;
