@@ -33,8 +33,12 @@ html {
   color: #2D3440;
 }
 
-:focus {
+:focus, :focus-visible {
   outline: 2px solid #2D3440;
+  outline-offset: -1px;
+}
+:focus:not(:focus-visible) {
+  outline: 0;
 }
 
 .page {
