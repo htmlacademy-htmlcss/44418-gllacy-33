@@ -856,6 +856,9 @@ html {
   flex: 1;
   margin-right: 22px;
 }
+.subscription__button {
+  align-self: center;
+}
 
 
 /* Delivery */
