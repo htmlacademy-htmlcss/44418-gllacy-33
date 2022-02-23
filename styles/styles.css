@@ -34,7 +34,7 @@ html {
 }
 
 :focus {
-  outline: 2px solid  #2D3440;
+  outline: 2px solid #2D3440;
 }
 
 .page {
@@ -87,7 +87,7 @@ html {
   background-color: rgba(252, 252, 252, 0.4);
   box-shadow: 0 0 0 4px #FCFCFC, 0px 4px 15px rgba(133, 133, 133, 0.15);
 }
-.button--white:focus-visible {
+.button--white:focus, .button--white:active {
   background-color: #FCFCFC;
   box-shadow: 0 0 0 2px #2D3440, 0px 4px 12px rgba(45, 52, 64, 0.1);
   outline: none;
@@ -110,7 +110,7 @@ html {
   background-color: #FCFCFC;
   box-shadow: 0 0 0 4px #FF2F64, 0px 4px 15px rgba(133, 133, 133, 0.15);
 }
-.button--pink:focus-visible {
+.button--pink:focus, .button--pink:active {
   color: #FCFCFC;
   background-color: #FF2F64;
   box-shadow: 0 0 0 2px #2D3440, 0px 4px 12px rgba(45, 52, 64, 0.1);
@@ -1067,7 +1067,7 @@ html {
   background-color: #FCFCFC;
   box-shadow: 0 0 0 2px rgba(252, 252, 252, 0.3);
 }
-.catalog-filter__button:focus-visible {
+.catalog-filter__button:focus, .catalog-filter__button:active {
   color: #2D3440;
   background-color: rgba(252, 252, 252, 0.3);
   box-shadow: 0 0 0 2px #2D3440;
