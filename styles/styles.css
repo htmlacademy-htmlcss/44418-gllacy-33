@@ -967,17 +967,17 @@ html {
 
 
 /* Contacts */
-.contacts {
+.contact {
   padding-top: 80px;
 }
-.contacts__wrap {
+.contact__wrap {
   box-sizing: border-box;
   padding: 64px;
-  background: url(../images/bg-contacts.jpg) no-repeat center;
+  background: url(../images/bg-contact.jpg) no-repeat center;
   background-size: cover;
   border-radius: 16px;
 }
-.contacts__box {
+.contact__box {
   width: 343px;
   box-sizing: border-box;
   background-color: #FCFCFC;
@@ -985,7 +985,7 @@ html {
   border-radius: 8px;
   padding: 40px;
 }
-.contacts__address {
+.contact__address {
   display: inline-block;
   font-weight: 700;
   font-size: 20px;
@@ -995,7 +995,7 @@ html {
   margin-top: 12px;
   margin-bottom: 24px;
 }
-.contacts__phone {
+.contact__phone {
   display: inline-block;
   font-weight: 700;
   font-size: 20px;
@@ -1005,16 +1005,16 @@ html {
   margin-top: 12px;
   margin-bottom: 0;
 }
-.contacts__time {
+.contact__time {
   margin: 0;
   color: #565C66;
   font-size: 14px;
 }
-.contacts__text {
+.contact__text {
   margin: 0;
   color: #565C66;
 }
-.contacts__button {
+.contact__button {
   margin-top: 32px;
 }
 
