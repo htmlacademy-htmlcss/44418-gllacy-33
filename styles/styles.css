@@ -1132,6 +1132,11 @@ html {
   line-height: 1.4;
   text-decoration: none;
   color: #2D3440;
+  transition: .1s ease-in-out;
+  transition-property: opacity;
+}
+.footer-nav__link:hover {
+  opacity: .7;
 }
 .footer-nav__link--heart {
   font-weight: 700;
