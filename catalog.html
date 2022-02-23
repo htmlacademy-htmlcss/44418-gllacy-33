@@ -67,10 +67,26 @@
                     <fieldset class="catalog-filter__item fieldset">
                         <legend class="catalog-filter__legend">Жирность:</legend>
                         <div class="catalog-filter__wrap">
-                            <label class="catalog-filter__label"><input class="catalog-filter__radio" type="radio" name="filter-fat" value="0">0%</label>
-                            <label class="catalog-filter__label"><input class="catalog-filter__radio" type="radio" name="filter-fat" value="before-10" checked>до 10%</label>
-                            <label class="catalog-filter__label"><input class="catalog-filter__radio" type="radio" name="filter-fat" value="before-30">до 30%</label>
-                            <label class="catalog-filter__label"><input class="catalog-filter__radio" type="radio" name="filter-fat" value="after-30">выше 30%</label>
+                            <label class="catalog-filter__label">
+                                <input class="catalog-filter__radio radio__input" type="radio" name="filter-fat" value="0">
+                                <span class="radio__box"></span>
+                                0%
+                            </label>
+                            <label class="catalog-filter__label">
+                                <input class="catalog-filter__radio radio__input" type="radio" name="filter-fat" value="before-10">
+                                <span class="radio__box"></span>
+                                до 10%
+                            </label>
+                            <label class="catalog-filter__label">
+                                <input class="catalog-filter__radio radio__input" type="radio" name="filter-fat" value="before-30" disabled>
+                                <span class="radio__box"></span>
+                                до 30%
+                            </label>
+                            <label class="catalog-filter__label">
+                                <input class="catalog-filter__radio radio__input" type="radio" name="filter-fat" value="after-30" checked disabled>
+                                <span class="radio__box"></span>
+                                выше 30%
+                            </label>
                         </div>
                     </fieldset>
                     <fieldset class="catalog-filter__item fieldset">

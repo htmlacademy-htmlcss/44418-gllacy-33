@@ -127,6 +127,38 @@ html {
   cursor: not-allowed;
 }
 
+/* Radio */
+.radio__input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+.radio__box {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  margin-left: -23px;
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.002 1.333H8a6.666 6.666 0 0 0-.002 13.333H8a6.666 6.666 0 0 0 .002-13.333Zm0 14.666H8A8 8 0 1 1 7.995 0a8 8 0 0 1 .007 16Z' fill='%232D3440'/%3E%3C/svg%3E");
+}
+.radio__input:checked + .radio__box {
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M14.667 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.334 0ZM8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z' fill='%232D3440'/%3E%3C/svg%3E");
+}
+.radio__input:disabled + .radio__box {
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.002 1.333H8a6.666 6.666 0 0 0-.002 13.333H8a6.666 6.666 0 0 0 .002-13.333Zm0 14.666H8A8 8 0 1 1 7.995 0a8 8 0 0 1 .007 16Z' fill='%232D3440' opacity='.4'/%3E%3C/svg%3E");
+}
+.radio__input:checked:disabled + .radio__box {
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M14.667 8A6.667 6.667 0 1 1 1.333 8a6.667 6.667 0 0 1 13.334 0ZM8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16Zm0-5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z' fill='%232D3440' opacity='.4'/%3E%3C/svg%3E");
+}
+.radio__input:focus + .radio__box {
+  outline: 2px solid #2D3440;
+  outline-offset: -1px;
+}
+.radio__input:not(:focus-visible) + .radio__box {
+  outline: 0;
+}
+
 /* Checkbox */
 .check__input {
   position: absolute;
