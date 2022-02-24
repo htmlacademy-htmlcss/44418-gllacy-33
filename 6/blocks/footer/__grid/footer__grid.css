@@ -1,0 +1,6 @@
+.footer__grid {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    gap: 40px;
+}
