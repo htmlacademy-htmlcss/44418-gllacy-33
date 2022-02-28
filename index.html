@@ -26,7 +26,9 @@
                         <a class="header-bar__link header-bar__search" href="#">
                             <span class="visually-hidden">Поиск</span>
                         </a>
-                        <div class="popover popover--open popover-search">
+
+                        <!-- Для отображения добавляем класс "popover--open" -->
+                        <div class="popover popover-search">
                             <form action="https://echo.htmlacademy.ru/" method="post">
                                 <div class="popover-search__input">
                                     <input class="input" type="text" placeholder="Поиск по сайту">
@@ -39,6 +41,8 @@
                     </li>
                     <li class="header-bar__item">
                         <a class="header-bar__link header-bar__login" href="#">Вход</a>
+
+                        <!-- Для отображения добавляем класс "popover--open" -->
                         <div class="popover popover-login">
                             <h2 class="popover-login__heading">Личный кабинет</h2>
                             <form class="popover-login__form" action="https://echo.htmlacademy.ru/" method="post">
@@ -50,7 +54,38 @@
                             </form>
                         </div>
                     </li>
-                    <li class="header-bar__item"><a class="header-bar__link header-bar__cart" href="#">Пусто</a></li>
+                    <li class="header-bar__item">
+                        <a class="header-bar__link header-bar__cart" href="#">Пусто</a>
+
+                        <!-- Для отображения добавляем класс "popover--open" -->
+                        <div class="popover popover-cart">
+                            <h2 class="popover-cart__heading">Корзина</h2>
+                            <ul class="popover-cart__list">
+                                <li class="popover-cart__item popover-cart-item">
+                                    <img class="popover-cart-item__img" src="images/malinka.jpg" alt="Малинка" width="46" height="46">
+                                    <h3 class="popover-cart-item__heading">Малинка</h3>
+                                    <p class="popover-cart-item__count">1 кг х 310 ₽</p>
+                                    <p class="popover-cart-item__price">310 ₽</p>
+                                    <button class="popover-cart-item__clear">
+                                        <span class="visually-hidden">Удалить из корзины</span>
+                                    </button>
+                                </li>
+                                <li class="popover-cart__item popover-cart-item">
+                                    <img class="popover-cart-item__img" src="images/bablgam.jpg" alt="Бабл-гам" width="46" height="46">
+                                    <h3 class="popover-cart-item__heading">Бабл-гам</h3>
+                                    <p class="popover-cart-item__count">1,5 кг х 320 ₽</p>
+                                    <p class="popover-cart-item__price">480 ₽</p>
+                                    <button class="popover-cart-item__clear">
+                                        <span class="visually-hidden">Удалить из корзины</span>
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="popover-cart__footer">
+                                <button class="button button--pink">Оформить заказ</button>
+                                <p class="popover-cart__sum">Итого: 790 ₽</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
