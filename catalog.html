@@ -32,7 +32,19 @@
                             </form>
                         </div>
                     </li>
-                    <li class="header-bar__item"><a class="header-bar__link header-bar__login" href="#">Вход</a></li>
+                    <li class="header-bar__item">
+                        <a class="header-bar__link header-bar__login" href="#">Вход</a>
+                        <div class="popover popover--open popover-login">
+                            <h2 class="popover-login__heading">Личный кабинет</h2>
+                            <form class="popover-login__form" action="https://echo.htmlacademy.ru/" method="post">
+                                <input class="popover-login__input input" type="email" placeholder="email@example.com">
+                                <input class="popover-login__input input" type="password" placeholder="Пароль">
+                                <button class="popover-login__button button button--pink">Войти</button>
+                                <a class="popover-login__link" href="#">Забыли пароль?</a>
+                                <a class="popover-login__link" href="#">Регистрация</a>
+                            </form>
+                        </div>
+                    </li>
                     <li class="header-bar__item"><a class="header-bar__link header-bar__cart header-bar__cart--active" href="#">2 товара</a></li>
                 </ul>
             </div>
