@@ -713,6 +713,30 @@ html {
   padding: 24px 16px;
   width: 356px;
 }
+.popover-search__input {
+  position: relative;
+}
+.popover-search__clear {
+  display: inline-block;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  right: 13px;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9.803 1.138A.667.667 0 1 0 8.86.195L5 4.056 1.137.196a.667.667 0 1 0-.943.942L4.056 5 .196 8.86a.667.667 0 0 0 .942.943L5 5.942 8.86 9.803a.667.667 0 1 0 .943-.943L5.942 5l3.861-3.862Z' fill='%232D3440'/%3E%3C/svg%3E");
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .4;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+  transition-property: opacity;
+}
+.popover-search__clear:hover {
+  opacity: 1;
+}
 .popover-login {
   width: 420px;
   padding: 50px;

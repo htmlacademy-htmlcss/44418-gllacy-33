@@ -26,15 +26,20 @@
                         <a class="header-bar__link header-bar__search" href="#">
                             <span class="visually-hidden">Поиск</span>
                         </a>
-                        <div class="popover popover-search">
+                        <div class="popover popover--open popover-search">
                             <form action="https://echo.htmlacademy.ru/" method="post">
-                                <input class="input" type="text" placeholder="Поиск по сайту">
+                                <div class="popover-search__input">
+                                    <input class="input" type="text" placeholder="Поиск по сайту">
+                                    <button class="popover-search__clear">
+                                        <span class="visually-hidden">Очистить</span>
+                                    </button>
+                                </div>
                             </form>
                         </div>
                     </li>
                     <li class="header-bar__item">
                         <a class="header-bar__link header-bar__login" href="#">Вход</a>
-                        <div class="popover popover--open popover-login">
+                        <div class="popover popover-login">
                             <h2 class="popover-login__heading">Личный кабинет</h2>
                             <form class="popover-login__form" action="https://echo.htmlacademy.ru/" method="post">
                                 <input class="popover-login__input input" type="email" placeholder="email@example.com">
