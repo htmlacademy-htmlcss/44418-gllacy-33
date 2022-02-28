@@ -628,6 +628,7 @@ html {
 }
 .header-bar__item {
   line-height: 1;
+  position: relative;
 }
 .header-bar__item:not(:last-child) {
   margin-right: 16px;
@@ -692,6 +693,26 @@ html {
   background-color: #FCFCFC;
 }
 
+/* Popover */
+.popover {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  box-sizing: border-box;
+  color: #242424;
+  background-color: #FCFCFC;
+  box-shadow: 0px 15px 40px rgba(45, 52, 64, 0.12);
+  border-radius: 4px;
+  z-index: 10;
+  display: none;
+}
+.popover--open {
+  display: block;
+}
+.popover-search {
+  padding: 24px 16px;
+  width: 356px;
+}
 
 /* Main */
 .main__header {
