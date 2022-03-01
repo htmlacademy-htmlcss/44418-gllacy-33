@@ -587,6 +587,9 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
+.header-nav__item {
+  position: relative;
+}
 .header-nav__link {
   display: inline-block;
   color: #2D3440;
@@ -697,7 +700,6 @@ html {
 .popover {
   position: absolute;
   top: 40px;
-  right: 0;
   box-sizing: border-box;
   color: #242424;
   background-color: #FCFCFC;
@@ -705,6 +707,9 @@ html {
   border-radius: 4px;
   z-index: 10;
   display: none;
+}
+.popover--right {
+  left: 0;
 }
 .popover--open {
   display: block;
