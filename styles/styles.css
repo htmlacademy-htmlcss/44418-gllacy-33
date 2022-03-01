@@ -204,13 +204,12 @@ html {
 }
 
 
-/* Input */
-.input {
+/* Input Textarea */
+.input, .textarea {
   max-width: 100%;
   width: 100%;
   box-sizing: border-box;
   font-size: 16px;
-  height: 48px;
   padding: 0 16px;
   background: #FFFFFF;
   border-radius: 4px;
@@ -218,10 +217,10 @@ html {
   transition: .1s ease-in-out;
   transition-property: color,background-color,border
 }
-.input:hover {
+.input:hover, .textarea:hover {
   border-color: #2D3440;
 }
-.input:focus-visible {
+.input:focus-visible, .textarea:focus-visible {
   box-shadow: 0 0 0 1px #2D3440;
   border-color: #2D3440;
   outline: none;
@@ -234,6 +233,23 @@ html {
 }
 .input::-ms-input-placeholder {
   color: #B9B9B9;
+}
+.textarea::-ms-input-placeholder {
+  color: #B9B9B9;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+}
+.textarea::placeholder {
+  color: #B9B9B9;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+}
+.input {
+  height: 48px;
+}
+.textarea {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -1587,4 +1603,66 @@ html {
 }
 .copyright__link:hover {
   opacity: .7;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  overflow-y: auto;
+  background-color: rgba(45, 52, 64, 0.3);
+}
+.modal--open {
+  display: flex;
+}
+.modal__body {
+  position: relative;
+  box-sizing: border-box;
+  width: 570px;
+  padding: 64px;
+  margin: auto;
+  background-color: #FCFCFC;
+  box-shadow: 0px 15px 40px rgba(45, 52, 64, 0.12);
+  border-radius: 8px;
+}
+.modal__close {
+  border: 0;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.886 2.055a.667.667 0 0 0-.943-.943L6.999 6.056 2.055 1.112a.667.667 0 0 0-.943.943l4.944 4.944-4.944 4.944a.667.667 0 1 0 .943.943l4.944-4.944 4.944 4.944a.667.667 0 1 0 .943-.943L7.942 7l4.944-4.944Z' fill='%232D3440'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+  transition-property: opacity;
+}
+.modal__close:hover {
+  opacity: .7;
+}
+.modal__heading {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: 24px;
+  list-style: 1.25;
+  font-weight: 700;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+.modal-form__input {
+  margin-bottom: 16px;
+}
+.modal-form__button {
+  margin-top: 32px;
+  align-self: flex-end;
 }

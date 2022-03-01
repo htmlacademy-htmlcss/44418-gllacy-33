@@ -18,10 +18,10 @@
                         <li class="header-nav__item">
 
                             <!-- Если popover открыт добавляем класс "header-nav__link--active" -->
-                            <a class="header-nav__link header-nav__link--open" href="catalog.html">Каталог</a>
+                            <a class="header-nav__link" href="catalog.html">Каталог</a>
 
                             <!-- Для отображения добавляем класс "popover--open"-->
-                            <div class="popover popover--open popover-menu">
+                            <div class="popover popover-menu">
                                 <ul class="popover-menu__list">
                                     <li class="popover-menu__item">
                                         <a class="popover-menu__link popover-menu__link--bold" href="#">Новинки</a>
@@ -409,6 +409,20 @@
             </div>
         </div>
     </footer>
+
+    <!-- Для открытия modal добавляем "modal--open" -->
+    <div class="modal">
+        <div class="modal__body">
+            <button class="modal__close"></button>
+            <h2 class="modal__heading">Мы обязательно ответим вам!</h2>
+            <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
+                <input class="modal-form__input input" type="text" placeholder="Имя и фамилия">
+                <input class="modal-form__input input" type="email" placeholder="email@example.com">
+                <textarea class="textarea" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+                <button class="modal-form__button button button--pink">Отправить</button>
+            </form>
+        </div>
+    </div>
 
 </body>
 
