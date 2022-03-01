@@ -488,6 +488,11 @@ html {
   color: #2D3440;
   text-decoration: none;
   border-bottom: 1px solid #2D3440;
+  transition: .1s ease-in-out;
+  transition-property: opacity;
+}
+.breadcrumb__link:hover {
+  opacity: .7;
 }
 
 
