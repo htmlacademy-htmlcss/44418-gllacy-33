@@ -1,0 +1,6 @@
+.subscription {
+    border-radius: 16px;
+    background: url(../../images/bg-mailbox.jpg) no-repeat center;
+    background-size: cover;
+    padding: 6px;
+}

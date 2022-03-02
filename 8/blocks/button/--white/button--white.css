@@ -1,0 +1,20 @@
+.button--white {
+    color: #2D3440;
+    background-color: #FCFCFC;
+    box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.4), 0 4px 12px rgba(45, 52, 64, 0.1);
+}
+.button--white:hover {
+    background-color: rgba(252, 252, 252, 0.4);
+    box-shadow: 0 0 0 4px #FCFCFC, 0px 4px 15px rgba(133, 133, 133, 0.15);
+}
+.button--white:focus-visible {
+    background-color: #FCFCFC;
+    box-shadow: 0 0 0 2px #2D3440, 0px 4px 12px rgba(45, 52, 64, 0.1);
+    outline: none;
+}
+.button--white:disabled {
+    color: #B9B9B9;
+    background-color: #E7E7E7;
+    box-shadow: 0 0 0 4px rgba(252, 252, 252, 0.4);
+    cursor: auto;
+}
