@@ -241,29 +241,26 @@ html {
   padding-bottom: 10px;
 }
 
-
-/* Label */
-.label {
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.label__info {
-  border: 0;
-  padding: 0;
-  width: 14px;
-  height: 14px;
-  background: transparent;
-  margin-left: 6px;
-  background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 2.125a4.875 4.875 0 1 0 0 9.75 4.875 4.875 0 0 0 0-9.75ZM.792 7a6.209 6.209 0 1 1 12.417 0A6.209 6.209 0 0 1 .792 7ZM7 6.333c.368 0 .667.299.667.667v2.217a.667.667 0 0 1-1.334 0V7c0-.368.299-.667.667-.667Zm0-2.216A.667.667 0 1 0 7 5.45h.006a.667.667 0 0 0 0-1.333H7Z' fill='%232D3440'/%3E%3C/svg%3E");
-}
-
 .field-group {
   margin: 0;
 }
 
+
+/* Label */
+.label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.label-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.label-info .label {
+  margin-bottom: 0;
+}
 
 
 /* Slidenav */
@@ -1704,4 +1701,13 @@ html {
   position: absolute;
   top: 10px;
   left: -6px;
+}
+.tooltip--info {
+  border: 0;
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  background: transparent;
+  margin-left: 6px;
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 2.125a4.875 4.875 0 1 0 0 9.75 4.875 4.875 0 0 0 0-9.75ZM.792 7a6.209 6.209 0 1 1 12.417 0A6.209 6.209 0 0 1 .792 7ZM7 6.333c.368 0 .667.299.667.667v2.217a.667.667 0 0 1-1.334 0V7c0-.368.299-.667.667-.667Zm0-2.216A.667.667 0 1 0 7 5.45h.006a.667.667 0 0 0 0-1.333H7Z' fill='%232D3440'/%3E%3C/svg%3E");
 }
