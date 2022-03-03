@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Каталог</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 
 <body class="page page--pink">
@@ -15,7 +16,32 @@
                 <a class="header__logo logo" href="/"><img class="logo__img" src="images/logo.svg" width="137" height="56" alt="Gllacy Shop"></a>
                 <nav class="header__nav header-nav">
                     <ul class="header-nav__list">
-                        <li class="header-nav__item"><a class="header-nav__link header-nav__link--active" href="catalog.html">Каталог</a></li>
+                        <li class="header-nav__item">
+
+                            <!-- Если popover открыт добавляем класс "header-nav__link--open" -->
+                            <a class="header-nav__link header-nav__link--active" href="catalog.html">Каталог</a>
+
+                            <!-- Для отображения добавляем класс "popover--open"-->
+                            <div class="popover popover-menu">
+                                <ul class="popover-menu__list">
+                                    <li class="popover-menu__item">
+                                        <a class="popover-menu__link popover-menu__link--bold" href="#">Новинки</a>
+                                    </li>
+                                    <li class="popover-menu__item">
+                                        <a class="popover-menu__link" href="#">Сливочное</a>
+                                    </li>
+                                    <li class="popover-menu__item">
+                                        <a class="popover-menu__link" href="#">Щербеты</a>
+                                    </li>
+                                    <li class="popover-menu__item">
+                                        <a class="popover-menu__link popover-menu__link--active" href="#">Фруктовый лед</a>
+                                    </li>
+                                    <li class="popover-menu__item">
+                                        <a class="popover-menu__link" href="#">Мелорин</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                         <li class="header-nav__item"><a class="header-nav__link" href="#">Доставка и оплата</a></li>
                         <li class="header-nav__item"><a class="header-nav__link" href="#">О компании</a></li>
                     </ul>
@@ -23,12 +49,73 @@
                 <a class="header__phone" href="tel:+78005558628">+7 800 555-86-28</a>
                 <ul class="header__bar header-bar">
                     <li class="header-bar__item">
+
+                        <!-- Если popover открыт добавляем класс "header-bar__link--open" -->
                         <a class="header-bar__link header-bar__search" href="#">
                             <span class="visually-hidden">Поиск</span>
                         </a>
+
+                        <!-- Для отображения добавляем класс "popover--open" -->
+                        <form class="popover popover--right popover-search" action="https://echo.htmlacademy.ru/" method="post">
+                            <div class="popover-search__input">
+                                <input class="input" type="text" placeholder="Поиск по сайту">
+                                <button class="popover-search__clear">
+                                    <span class="visually-hidden">Очистить</span>
+                                </button>
+                            </div>
+                        </form>
                     </li>
-                    <li class="header-bar__item"><a class="header-bar__link header-bar__login" href="#">Вход</a></li>
-                    <li class="header-bar__item"><a class="header-bar__link header-bar__cart header-bar__cart--active" href="#">2 товара</a></li>
+                    <li class="header-bar__item">
+
+                        <!-- Если popover открыт добавляем класс "header-bar__link--open" -->
+                        <a class="header-bar__link header-bar__login" href="#">Вход</a>
+
+                        <!-- Для отображения добавляем класс "popover--open" -->
+                        <div class="popover popover--right popover-login">
+                            <h2 class="popover-login__heading">Личный кабинет</h2>
+                            <form class="popover-login__form" action="https://echo.htmlacademy.ru/" method="post">
+                                <input class="popover-login__input input" type="email" placeholder="email@example.com">
+                                <input class="popover-login__input input" type="password" placeholder="Пароль">
+                                <button class="popover-login__button button button--pink">Войти</button>
+                                <a class="popover-login__link" href="#">Забыли пароль?</a>
+                                <a class="popover-login__link" href="#">Регистрация</a>
+                            </form>
+                        </div>
+                    </li>
+                    <li class="header-bar__item">
+
+                        <!-- Если popover открыт добавляем класс "header-bar__link--open" -->
+                        <a class="header-bar__link header-bar__cart header-bar__cart--active" href="#">2 товара</a>
+
+                        <!-- Для отображения добавляем класс "popover--open" -->
+                        <div class="popover popover--right popover-cart">
+                            <h2 class="popover-cart__heading">Корзина</h2>
+                            <ul class="popover-cart__list">
+                                <li class="popover-cart__item popover-cart-item">
+                                    <img class="popover-cart-item__img" src="images/malinka.jpg" alt="Малинка" width="46" height="46">
+                                    <h3 class="popover-cart-item__heading">Малинка</h3>
+                                    <p class="popover-cart-item__count">1 кг х 310 ₽</p>
+                                    <p class="popover-cart-item__price">310 ₽</p>
+                                    <button class="popover-cart-item__clear">
+                                        <span class="visually-hidden">Удалить из корзины</span>
+                                    </button>
+                                </li>
+                                <li class="popover-cart__item popover-cart-item">
+                                    <img class="popover-cart-item__img" src="images/bablgam.jpg" alt="Бабл-гам" width="46" height="46">
+                                    <h3 class="popover-cart-item__heading">Бабл-гам</h3>
+                                    <p class="popover-cart-item__count">1,5 кг х 320 ₽</p>
+                                    <p class="popover-cart-item__price">480 ₽</p>
+                                    <button class="popover-cart-item__clear">
+                                        <span class="visually-hidden">Удалить из корзины</span>
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="popover-cart__footer">
+                                <button class="button button--pink">Оформить заказ</button>
+                                <p class="popover-cart__sum">Итого: 790 ₽</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -316,6 +403,20 @@
             </div>
         </div>
     </footer>
+
+    <!-- Для открытия modal добавляем "modal--open" -->
+    <div class="modal">
+        <div class="modal__body">
+            <button class="modal__close"></button>
+            <h2 class="modal__heading">Мы обязательно ответим вам!</h2>
+            <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
+                <input class="modal-form__input input" type="text" placeholder="Имя и фамилия">
+                <input class="modal-form__input input" type="email" placeholder="email@example.com">
+                <textarea class="textarea" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+                <button class="modal-form__button button button--pink">Отправить</button>
+            </form>
+        </div>
+    </div>
 
 </body>
 
