@@ -225,16 +225,8 @@ html {
   border-color: #2D3440;
   outline: none;
 }
-.input::-ms-input-placeholder {
-  color: #B9B9B9;
-}
 .input::placeholder {
   color: #B9B9B9;
-}
-.textarea::-ms-input-placeholder {
-  color: #B9B9B9;
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 16px;
 }
 .textarea::placeholder {
   color: #B9B9B9;
