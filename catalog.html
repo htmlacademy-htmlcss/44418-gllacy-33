@@ -56,11 +56,14 @@
                         </a>
 
                         <!-- Для отображения добавляем класс "popover--open" -->
-                        <div class="popover popover--right popover-search">
-                            <form action="https://echo.htmlacademy.ru/" method="post">
+                        <form class="popover popover--right popover-search" action="https://echo.htmlacademy.ru/" method="post">
+                            <div class="popover-search__input">
                                 <input class="input" type="text" placeholder="Поиск по сайту">
-                            </form>
-                        </div>
+                                <button class="popover-search__clear">
+                                    <span class="visually-hidden">Очистить</span>
+                                </button>
+                            </div>
+                        </form>
                     </li>
                     <li class="header-bar__item">
 
