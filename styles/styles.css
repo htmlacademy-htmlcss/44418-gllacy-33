@@ -924,11 +924,17 @@ html {
 }
 .popover-menu__link--bold {
   font-weight: 700;
+  position: relative;
 }
-.popover-menu__item--divider {
+.popover-menu__link--bold::after {
+  content: '';
+  width: calc(100% - 32px);
+  position: absolute;
+  left: 16px;
+  bottom: 0;
   border-bottom: 1px solid #B9B9B9;
-  margin: 0 16px;
 }
+
 
 /* Main */
 .main__header {
