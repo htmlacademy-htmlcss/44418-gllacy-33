@@ -1,9 +1,0 @@
-.goods-item {
-    display: flex;
-    flex-direction: column;
-    padding: 0 40px 30px 40px;
-    background-color: #FCFCFC;
-    border-radius: 8px;
-    align-items: center;
-    text-align: center;
-}

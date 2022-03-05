@@ -1,6 +1,0 @@
-.hero-slider__slidenav {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    transform: translateY(-50%);
-}
