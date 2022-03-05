@@ -1375,11 +1375,11 @@ html {
 .catalog-filter__legend {
   font-size: 14px;
   margin-bottom: 8px;
-  margin-left: 16px;
+  margin-left: 14px;
 }
 .catalog-filter__wrap {
   box-sizing: border-box;
-  padding: 0 16px;
+  padding: 0 14px;
   height: 36px;
   display: flex;
   align-items: center;
@@ -1395,7 +1395,7 @@ html {
   cursor: pointer;
 }
 .catalog-filter__label:not(:last-child) {
-  padding-right: 16px;
+  padding-right: 18px;
 }
 .catalog-filter__select {
   -webkit-appearance: none;
@@ -1458,7 +1458,7 @@ html {
   width: 0;
   padding: 2px;
   background-color: #FCFCFC;
-  border: 8px solid #2D3440;
+  border: 6px solid #2D3440;
   border-radius: 50%;
   pointer-events: auto;
   cursor: pointer;
@@ -1473,7 +1473,7 @@ html {
   width: 0;
   padding: 2px;
   background-color: #FCFCFC;
-  border: 8px solid #2D3440;
+  border: 6px solid #2D3440;
   border-radius: 50%;
   pointer-events: auto;
   cursor: pointer;
@@ -1486,7 +1486,7 @@ html {
   width: 0;
   padding: 2px;
   background-color: #FCFCFC;
-  border: 8px solid #2D3440;
+  border: 6px solid #2D3440;
   border-radius: 50%;
   pointer-events: auto;
   cursor: pointer;
