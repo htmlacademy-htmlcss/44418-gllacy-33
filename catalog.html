@@ -149,8 +149,8 @@
                         <legend class="catalog-filter__legend">Цена: <output for="input-price-min" name="price-min">100</output> ₽ – <output for="input-price-max" name="price-max">500</output> ₽</legend>
                         <div class="catalog-filter__wrap">
                             <div class="catalog-filter__range-track"></div>
-                            <input id="input-price-min" class="catalog-filter__range" type="range" min="50" max="1000" value="100">
-                            <input id="input-price-max" class="catalog-filter__range" type="range" min="50" max="1000" value="500">
+                            <input id="input-price-min" name="price-min" class="catalog-filter__range" type="range" min="50" max="1000" value="191">
+                            <input id="input-price-max" name="price-max" class="catalog-filter__range" type="range" min="50" max="1000" value="650">
                         </div>
                     </fieldset>
                     <fieldset class="catalog-filter__item fieldset">
@@ -162,7 +162,7 @@
                                 0%
                             </label>
                             <label class="catalog-filter__label">
-                                <input class="catalog-filter__radio radio__input" type="radio" name="filter-fat" value="before-10">
+                                <input class="catalog-filter__radio radio__input" type="radio" checked name="filter-fat" value="before-10">
                                 <span class="radio__box"></span>
                                 до 10%
                             </label>
@@ -172,7 +172,7 @@
                                 до 30%
                             </label>
                             <label class="catalog-filter__label">
-                                <input class="catalog-filter__radio radio__input" type="radio" name="filter-fat" value="after-30" checked disabled>
+                                <input class="catalog-filter__radio radio__input" type="radio" name="filter-fat" value="after-30" disabled>
                                 <span class="radio__box"></span>
                                 выше 30%
                             </label>
@@ -202,7 +202,7 @@
                                 сиропы
                             </label>
                             <label class="catalog-filter__label">
-                                <input class="check__input" type="checkbox" name="filter-fillers" value="jams" checked disabled>
+                                <input class="check__input" type="checkbox" name="filter-fillers" value="jams" disabled>
                                 <span class="check__box"></span>
                                 джемы
                             </label>

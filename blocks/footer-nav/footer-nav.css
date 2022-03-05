@@ -1,5 +1,0 @@
-.footer-nav {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 24px;
-}

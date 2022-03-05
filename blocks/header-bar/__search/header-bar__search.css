@@ -1,8 +1,0 @@
-.header-bar__search {
-    width: 32px;
-    height: 32px;
-    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.913 7.246a5.333 5.333 0 1 1 9.17 3.705.677.677 0 0 0-.132.132 5.333 5.333 0 0 1-9.038-3.837Zm9.552 5.162a6.667 6.667 0 1 1 .943-.943l2.81 2.81a.667.667 0 1 1-.943.943l-2.81-2.81Z' fill='%232D3440'/%3E%3C/svg%3E");
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-}

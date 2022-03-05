@@ -1,9 +1,0 @@
-.subscription__box {
-    background-color: #FCFCFC;
-    border-radius: 16px;
-    padding: 26px;
-    box-sizing: border-box;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}

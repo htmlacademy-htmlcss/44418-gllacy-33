@@ -1,9 +1,0 @@
-.delivery__wrap {
-    box-sizing: border-box;
-    padding: 64px 64px 64px 100px;
-    background: url(../../../images/bg-delivery.jpg) no-repeat center;
-    background-size: cover;
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-}
