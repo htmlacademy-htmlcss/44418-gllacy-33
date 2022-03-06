@@ -58,7 +58,8 @@
                         <!-- Для отображения добавляем класс "popover--open" -->
                         <form class="popover popover--right popover-search" action="https://echo.htmlacademy.ru/" method="post">
                             <div class="popover-search__input">
-                                <input class="input" type="text" placeholder="Поиск по сайту">
+                                <label class="visually-hidden" for="input-search">Поиск по сайту</label>
+                                <input class="input" type="text" id="input-search" placeholder="Поиск по сайту">
                                 <button class="popover-search__clear">
                                     <span class="visually-hidden">Очистить</span>
                                 </button>
@@ -74,11 +75,15 @@
                         <div class="popover popover--right popover-login">
                             <h2 class="popover-login__heading">Личный кабинет</h2>
                             <form class="popover-login__form" action="https://echo.htmlacademy.ru/" method="post">
-                                <input class="popover-login__input input" type="email" placeholder="email@example.com">
-                                <input class="popover-login__input input" type="password" placeholder="Пароль">
-                                <button class="popover-login__button button button--pink">Войти</button>
-                                <a class="popover-login__link" href="#">Забыли пароль?</a>
-                                <a class="popover-login__link" href="#">Регистрация</a>
+                                <label class="visually-hidden" for="login-input-email">Ваш email</label>
+                                <input class="popover-login__input input" id="login-input-email" type="email" placeholder="email@example.com">
+                                <label class="visually-hidden" for="login-input-password">Ваш пароль</label>
+                                <input class="popover-login__input input" id="login-input-password" type="password" placeholder="Пароль">
+                                <div class="popover-login__footer">
+                                    <button class="popover-login__button button button--pink">Войти</button>
+                                    <a class="popover-login__link" href="#">Забыли пароль?</a>
+                                    <a class="popover-login__link" href="#">Регистрация</a>
+                                </div>
                             </form>
                         </div>
                     </li>
@@ -149,8 +154,8 @@
                         <legend class="catalog-filter__legend">Цена: <output for="input-price-min" name="price-min">100</output> ₽ – <output for="input-price-max" name="price-max">500</output> ₽</legend>
                         <div class="catalog-filter__wrap">
                             <div class="catalog-filter__range-track"></div>
-                            <input id="input-price-min" name="price-min" class="catalog-filter__range" type="range" min="50" max="1000" value="191">
-                            <input id="input-price-max" name="price-max" class="catalog-filter__range" type="range" min="50" max="1000" value="650">
+                            <input id="input-price-min" name="price-min" class="catalog-filter__range" type="range" min="0" max="700" value="100">
+                            <input id="input-price-max" name="price-max" class="catalog-filter__range" type="range" min="0" max="700" value="500">
                         </div>
                     </fieldset>
                     <fieldset class="catalog-filter__item fieldset">
