@@ -72,16 +72,18 @@
                         <a class="header-bar__link header-bar__login" href="#">Вход</a>
 
                         <!-- Для отображения добавляем класс "popover--open" -->
-                        <div class="popover popover--right popover--open popover-login">
+                        <div class="popover popover--right popover-login">
                             <h2 class="popover-login__heading">Личный кабинет</h2>
                             <form class="popover-login__form" action="https://echo.htmlacademy.ru/" method="post">
                                 <label class="visually-hidden" for="login-input-email">Ваш email</label>
                                 <input class="popover-login__input input" id="login-input-email" type="email" placeholder="email@example.com">
                                 <label class="visually-hidden" for="login-input-password">Ваш пароль</label>
                                 <input class="popover-login__input input" id="login-input-password" type="password" placeholder="Пароль">
-                                <button class="popover-login__button button button--pink">Войти</button>
-                                <a class="popover-login__link" href="#">Забыли пароль?</a>
-                                <a class="popover-login__link" href="#">Регистрация</a>
+                                <div class="popover-login__footer">
+                                    <button class="popover-login__button button button--pink">Войти</button>
+                                    <a class="popover-login__link" href="#">Забыли пароль?</a>
+                                    <a class="popover-login__link" href="#">Регистрация</a>
+                                </div>
                             </form>
                         </div>
                     </li>
