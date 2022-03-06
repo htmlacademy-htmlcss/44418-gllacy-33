@@ -58,7 +58,8 @@
                         <!-- Для отображения добавляем класс "popover--open" -->
                         <form class="popover popover--right popover-search" action="https://echo.htmlacademy.ru/" method="post">
                             <div class="popover-search__input">
-                                <input class="input" type="text" placeholder="Поиск по сайту">
+                                <label class="visually-hidden" for="input-search">Поиск по сайту</label>
+                                <input class="input" type="text" id="input-search" placeholder="Поиск по сайту">
                                 <button class="popover-search__clear">
                                     <span class="visually-hidden">Очистить</span>
                                 </button>
@@ -71,11 +72,13 @@
                         <a class="header-bar__link header-bar__login" href="#">Вход</a>
 
                         <!-- Для отображения добавляем класс "popover--open" -->
-                        <div class="popover popover--right popover-login">
+                        <div class="popover popover--right popover--open popover-login">
                             <h2 class="popover-login__heading">Личный кабинет</h2>
                             <form class="popover-login__form" action="https://echo.htmlacademy.ru/" method="post">
-                                <input class="popover-login__input input" type="email" placeholder="email@example.com">
-                                <input class="popover-login__input input" type="password" placeholder="Пароль">
+                                <label class="visually-hidden" for="login-input-email">Ваш email</label>
+                                <input class="popover-login__input input" id="login-input-email" type="email" placeholder="email@example.com">
+                                <label class="visually-hidden" for="login-input-password">Ваш пароль</label>
+                                <input class="popover-login__input input" id="login-input-password" type="password" placeholder="Пароль">
                                 <button class="popover-login__button button button--pink">Войти</button>
                                 <a class="popover-login__link" href="#">Забыли пароль?</a>
                                 <a class="popover-login__link" href="#">Регистрация</a>
